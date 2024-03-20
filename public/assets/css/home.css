@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka:wght@300&family=Indie+Flower&family=Kenia&family=Nanum+Gothic:wght@700&family=Rubik&family=Source+Serif+4:opsz,wght@8..60,900&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #eaeaea71;
+}
+
+.wrapper {
+  position: relative;
+  width: 450px;
+  max-width: 100%;
+  background-color: #eaeaea;
+  color: #000000;
+  border-radius: 7px;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+}
+
+.wrapper h1 {
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  margin-bottom: 20px;
+}
+
+.wrapper p {
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrapper .input-box {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: calc(100% - 20px);
+  height: 45px;
+  background: transparent;
+  border: 2px solid rgba(77, 75, 75, 0.2);
+  border-radius: 40px;
+  font-size: 15px;
+  background-color: #ffffffb9;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.input-box input::placeholder {
+  color: #646464;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #000000;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #000000;
+  text-decoration: none;
+  margin-left: 15rem;
+  margin-top: 1.2rem;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: #441212;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.logokpuupn {
+  width: 23.3rem;
+  height: 23.9rem;
+  position: absolute;
+  left: 56.6rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+img {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 140px;
+}
+
+.additional-paragraph {
+  font-size: 16px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #441212;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin-top: 55rem;
+  margin-bottom: -65px;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    background-color: #441212;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 55rem;
+    margin-bottom: -100%;
+  }
+  .wrapper {
+    position: relative;
+    width: 300px;
+    max-width: 100%;
+    background-color: #eaeaea;
+    color: #000000;
+    border-radius: 7px;
+    padding: 25px 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+  }
+  
+  .wrapper h1 {
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 20px;
+  }
+  
+  .wrapper p {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper .input-box {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .input-box input {
+    width: calc(100% - 20px);
+    height: 45px;
+    background: transparent;
+    border: 2px solid rgba(77, 75, 75, 0.2);
+    border-radius: 40px;
+    font-size: 13px;
+    background-color: #ffffffb9;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  
+  .input-box input::placeholder {
+    color: #646464;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+  }
+  
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12.5px;
+    margin: -15px 0 15px -65px;
+  }
+  
+  .remember-forgot label input {
+    accent-color: #000000;
+    margin-right: 3px;
+  }
+  
+  .remember-forgot a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 15rem;
+    margin-top: 1.2rem;
+  }
+  
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+  
+  .wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #441212;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .logokpuupn {
+    width: 20.3rem;
+    height: 20.9rem;
+    position: absolute;
+    left: 50.6rem;
+    top: 0;
+    object-fit: cover;
+    vertical-align: top;
+  }
+  img {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 110px;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .footer {
+    background-color: #441212;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 50rem;
+    margin-bottom: -100%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .footer {
+    background-color: #441212;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 55rem;
+    margin-bottom: -100%px;
+  }
+  .wrapper {
+    position: relative;
+    width: 250px;
+    max-width: 100%;
+    background-color: #eaeaea;
+    color: #000000;
+    border-radius: 7px;
+    padding: 25px 35px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+  }
+  
+  .wrapper h1 {
+    font-size: 33px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 20px;
+  }
+  
+  .wrapper p {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper .input-box {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .input-box input {
+    width: calc(100% - 20px);
+    height: 45px;
+    background: transparent;
+    border: 2px solid rgba(77, 75, 75, 0.2);
+    border-radius: 40px;
+    font-size: 13px;
+    background-color: #ffffffb9;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  
+  .input-box input::placeholder {
+    color: #646464;
+  }
+  
+  .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+  }
+  
+  .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12.5px;
+    margin: -15px 0 15px -95px;
+  }
+  
+  .remember-forgot label input {
+    accent-color: #000000;
+    margin-right: 3px;
+  }
+  
+  .remember-forgot a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 15rem;
+    margin-top: 1.2rem;
+  }
+  
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+  
+  .wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #441212;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+  }
+  
+  .logokpuupn {
+    width: 15.3rem;
+    height: 15.9rem;
+    position: absolute;
+    left: 35.6rem;
+    top: 0;
+    object-fit: cover;
+    vertical-align: top;
+  }
+  img {
+    position: absolute;
+    top: -30px;
+    right: -20px;
+    width: 90px;
+  }
+}
+#progress-container {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #ababab;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#progress {
+  width: 0;
+  height: 100%;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  line-height: 32px;
+}
